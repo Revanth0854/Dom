@@ -40,7 +40,7 @@ body {
 
 .mainForm {
     width: 400px;
-    height: 400px;
+    height: 450px;
     overflow: hidden;
     display: flex;
     justify-content: center;
@@ -51,13 +51,23 @@ body {
     gap: 20px;
     border-radius: 10px;
     display: none;
-
 }
 
 .mainForm.newform{
     display: flex;
 }
-
+.input0{
+    width: 300px;
+    height: 5vh;
+    padding: 0 10px;
+    display: flex;
+    justify-content: flex-start;
+    background: transparent;
+    background: rgba(0, 0, 0, 0.2);
+    border: none;
+    border-radius: 20px;
+    color: white;
+}
 
 
 .navbar {
@@ -248,10 +258,13 @@ body {
 
 
 .card {
+    width: 320px;
     height: 345px;
     box-shadow: 0px 5.87px 10.76px 0px #0000001A;
-
     border-radius: 20px;
+}
+.card img{
+    width: 100%;
 }
 
 .card-content {
