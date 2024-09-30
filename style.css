@@ -47,7 +47,7 @@ body {
     align-items: center;
     flex-direction: column;
     text-align: start;
-    background-color: red;
+    background-color: white;
     gap: 20px;
     border-radius: 10px;
     display: none;
@@ -180,15 +180,14 @@ body {
         top: 10vh;
         right: 0;
         padding: 50px 60px;
-        transform: translateX(110%);
-        /* opacity: 0; */
+        display: none;
         transition: all 0.5s;
         border-radius: 10px;
         
     }
 
     .nav-active {
-        transform: translateX(0%);
+        display: flex;
         /* opacity: 1; */
 
     }

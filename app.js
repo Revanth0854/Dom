@@ -9,6 +9,7 @@ let button = document.querySelector(".btn");
 burger.addEventListener("click",()=>{
     navLinks.classList.toggle("nav-active");
     burger.classList.toggle("toggle");
+    // navLinks.style.display="flex"
 });
 
 // ============     ACCORDIAN       ==============
