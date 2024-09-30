@@ -39,8 +39,8 @@ body {
 }
 
 .mainForm {
-    width: 400px;
-    height: 450px;
+    width: 360px;
+    height: 480px;
     overflow: hidden;
     display: flex;
     justify-content: center;
