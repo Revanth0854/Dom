@@ -348,7 +348,6 @@ span {
     padding: 50px 0;
     gap: 15px;
     text-align: center;
-    border:  1px solid red;
     position: relative;
 }
 
@@ -428,7 +427,7 @@ span {
     flex-wrap: wrap;
     gap: 10px;
 }
-.s4row img{
+.img1,.img2,.img3,.img4,.img5,.img6{
     width: 40%;
 }
 .img1.new,
