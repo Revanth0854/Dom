@@ -61,9 +61,10 @@ close.addEventListener("click",()=>{
 
 let input1 = document.querySelector(".input1");
 let input2 = document.querySelector(".input2");
-let submit = document.querySelector(".submit");
+let submit = document.querySelector("#submit");
 let space = document.querySelector(".read");
 let first = document.createElement("h3")
+
 let second = document.createElement("h3")
 submit.addEventListener("click", () => {
     first.innerHTML = `${input1.value}`
@@ -71,6 +72,7 @@ submit.addEventListener("click", () => {
     space.appendChild(first)
     space.appendChild(second)
 })
+
 
 
 
@@ -83,9 +85,6 @@ let popup = document.querySelector(".popup");
 let img = document.createElement('img');
 let cross = document.querySelector(".popup h1");
 popup.appendChild(img);
-console.log(images)
-
-
 images.forEach((item) => {
     item.addEventListener("click", () => {
         popup.style.display="block";
